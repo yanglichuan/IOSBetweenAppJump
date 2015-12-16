@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E307AA1A7CBB8100E5358C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E307A91A7CBB8100E5358C /* main.m */; };
+		18E307AD1A7CBB8200E5358C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E307AC1A7CBB8200E5358C /* AppDelegate.m */; };
+		18E307B01A7CBB8200E5358C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E307AF1A7CBB8200E5358C /* ViewController.m */; };
+		18E307B31A7CBB8200E5358C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E307B11A7CBB8200E5358C /* Main.storyboard */; };
+		18E307B51A7CBB8200E5358C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E307B41A7CBB8200E5358C /* Images.xcassets */; };
+		18E307B81A7CBB8200E5358C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E307B61A7CBB8200E5358C /* LaunchScreen.xib */; };
+		18E307C41A7CBB8200E5358C /* _2___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E307C31A7CBB8200E5358C /* _2___Tests.m */; };
+		18E307CF1A7CC99B00E5358C /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E307CE1A7CC99B00E5358C /* SessionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E307BE1A7CBB8200E5358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E3079C1A7CBB8100E5358C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E307A31A7CBB8100E5358C;
+			remoteInfo = "02-微信";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E307A41A7CBB8100E5358C /* 02-微信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-微信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E307A81A7CBB8100E5358C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E307A91A7CBB8100E5358C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E307AB1A7CBB8100E5358C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E307AC1A7CBB8200E5358C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E307AE1A7CBB8200E5358C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E307AF1A7CBB8200E5358C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E307B21A7CBB8200E5358C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E307B41A7CBB8200E5358C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18E307B71A7CBB8200E5358C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18E307BD1A7CBB8200E5358C /* 02-微信Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-微信Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E307C21A7CBB8200E5358C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E307C31A7CBB8200E5358C /* _2___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2___Tests.m"; sourceTree = "<group>"; };
+		18E307CD1A7CC99B00E5358C /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewController.h; sourceTree = "<group>"; };
+		18E307CE1A7CC99B00E5358C /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E307A11A7CBB8100E5358C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E307BA1A7CBB8200E5358C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E3079B1A7CBB8100E5358C = {
+			isa = PBXGroup;
+			children = (
+				18E307A61A7CBB8100E5358C /* 02-微信 */,
+				18E307C01A7CBB8200E5358C /* 02-微信Tests */,
+				18E307A51A7CBB8100E5358C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E307A51A7CBB8100E5358C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E307A41A7CBB8100E5358C /* 02-微信.app */,
+				18E307BD1A7CBB8200E5358C /* 02-微信Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E307A61A7CBB8100E5358C /* 02-微信 */ = {
+			isa = PBXGroup;
+			children = (
+				18E307CD1A7CC99B00E5358C /* SessionViewController.h */,
+				18E307CE1A7CC99B00E5358C /* SessionViewController.m */,
+				18E307AB1A7CBB8100E5358C /* AppDelegate.h */,
+				18E307AC1A7CBB8200E5358C /* AppDelegate.m */,
+				18E307AE1A7CBB8200E5358C /* ViewController.h */,
+				18E307AF1A7CBB8200E5358C /* ViewController.m */,
+				18E307B11A7CBB8200E5358C /* Main.storyboard */,
+				18E307B41A7CBB8200E5358C /* Images.xcassets */,
+				18E307B61A7CBB8200E5358C /* LaunchScreen.xib */,
+				18E307A71A7CBB8100E5358C /* Supporting Files */,
+			);
+			path = "02-微信";
+			sourceTree = "<group>";
+		};
+		18E307A71A7CBB8100E5358C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E307A81A7CBB8100E5358C /* Info.plist */,
+				18E307A91A7CBB8100E5358C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E307C01A7CBB8200E5358C /* 02-微信Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18E307C31A7CBB8200E5358C /* _2___Tests.m */,
+				18E307C11A7CBB8200E5358C /* Supporting Files */,
+			);
+			path = "02-微信Tests";
+			sourceTree = "<group>";
+		};
+		18E307C11A7CBB8200E5358C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E307C21A7CBB8200E5358C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E307A31A7CBB8100E5358C /* 02-微信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E307C71A7CBB8200E5358C /* Build configuration list for PBXNativeTarget "02-微信" */;
+			buildPhases = (
+				18E307A01A7CBB8100E5358C /* Sources */,
+				18E307A11A7CBB8100E5358C /* Frameworks */,
+				18E307A21A7CBB8100E5358C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-微信";
+			productName = "02-微信";
+			productReference = 18E307A41A7CBB8100E5358C /* 02-微信.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E307BC1A7CBB8200E5358C /* 02-微信Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E307CA1A7CBB8200E5358C /* Build configuration list for PBXNativeTarget "02-微信Tests" */;
+			buildPhases = (
+				18E307B91A7CBB8200E5358C /* Sources */,
+				18E307BA1A7CBB8200E5358C /* Frameworks */,
+				18E307BB1A7CBB8200E5358C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E307BF1A7CBB8200E5358C /* PBXTargetDependency */,
+			);
+			name = "02-微信Tests";
+			productName = "02-微信Tests";
+			productReference = 18E307BD1A7CBB8200E5358C /* 02-微信Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E3079C1A7CBB8100E5358C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E307A31A7CBB8100E5358C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18E307BC1A7CBB8200E5358C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 18E307A31A7CBB8100E5358C;
+					};
+				};
+			};
+			buildConfigurationList = 18E3079F1A7CBB8100E5358C /* Build configuration list for PBXProject "02-微信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E3079B1A7CBB8100E5358C;
+			productRefGroup = 18E307A51A7CBB8100E5358C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E307A31A7CBB8100E5358C /* 02-微信 */,
+				18E307BC1A7CBB8200E5358C /* 02-微信Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E307A21A7CBB8100E5358C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E307B31A7CBB8200E5358C /* Main.storyboard in Resources */,
+				18E307B81A7CBB8200E5358C /* LaunchScreen.xib in Resources */,
+				18E307B51A7CBB8200E5358C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E307BB1A7CBB8200E5358C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E307A01A7CBB8100E5358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E307B01A7CBB8200E5358C /* ViewController.m in Sources */,
+				18E307CF1A7CC99B00E5358C /* SessionViewController.m in Sources */,
+				18E307AD1A7CBB8200E5358C /* AppDelegate.m in Sources */,
+				18E307AA1A7CBB8100E5358C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E307B91A7CBB8200E5358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E307C41A7CBB8200E5358C /* _2___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E307BF1A7CBB8200E5358C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E307A31A7CBB8100E5358C /* 02-微信 */;
+			targetProxy = 18E307BE1A7CBB8200E5358C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E307B11A7CBB8200E5358C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E307B21A7CBB8200E5358C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E307B61A7CBB8200E5358C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E307B71A7CBB8200E5358C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E307C51A7CBB8200E5358C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E307C61A7CBB8200E5358C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E307C81A7CBB8200E5358C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E307C91A7CBB8200E5358C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-微信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E307CB1A7CBB8200E5358C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-微信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-微信.app/02-微信";
+			};
+			name = Debug;
+		};
+		18E307CC1A7CBB8200E5358C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-微信Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-微信.app/02-微信";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E3079F1A7CBB8100E5358C /* Build configuration list for PBXProject "02-微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E307C51A7CBB8200E5358C /* Debug */,
+				18E307C61A7CBB8200E5358C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E307C71A7CBB8200E5358C /* Build configuration list for PBXNativeTarget "02-微信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E307C81A7CBB8200E5358C /* Debug */,
+				18E307C91A7CBB8200E5358C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E307CA1A7CBB8200E5358C /* Build configuration list for PBXNativeTarget "02-微信Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E307CB1A7CBB8200E5358C /* Debug */,
+				18E307CC1A7CBB8200E5358C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E3079C1A7CBB8100E5358C /* Project object */;
+}
